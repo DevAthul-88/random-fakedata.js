@@ -1,6 +1,6 @@
 const axios = require("axios").default;
 
-function Appliance(count = 1, data) {
+function Beer(count = 1, data) {
   axios
     .get("https://random-data-api.com/api/beer/random_beer?size=" + count)
     .then((res) => {
@@ -8,4 +8,4 @@ function Appliance(count = 1, data) {
     });
 }
 
-module.exports = Appliance;
+module.exports = Beer;
