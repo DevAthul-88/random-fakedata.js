@@ -7,3 +7,5 @@
 
 ### Usage
 
+`const user = require('random-data/src/user')`
+
