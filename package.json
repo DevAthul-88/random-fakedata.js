@@ -1,5 +1,5 @@
 {
-  "name": "random",
+  "name": "random-data",
   "version": "1.0.0",
   "description": "A package to generate random data",
   "main": "index.js",
