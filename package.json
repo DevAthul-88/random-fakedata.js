@@ -1,0 +1,14 @@
+{
+  "name": "random",
+  "version": "1.0.0",
+  "description": "A package to generate random data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "athul vinod",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0"
+  }
+}
