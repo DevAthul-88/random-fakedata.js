@@ -1,11 +1,15 @@
-# random-data.js
+##  random-data.js
+
 > A package to generate random data
 
-### Instal
+ ### A package to generate random data
 
-`npm install --save ranodm-data`
-
+    npm install --save ranodm-data
 ### Usage
 
-`const user = require('random-data/src/user')`
+```
+data(3  ,  (data)  =>  {
+console.log(data); // log that data here
+})
 
+```
