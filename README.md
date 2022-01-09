@@ -32,3 +32,27 @@ color(4 , (data) => {  // the first number parameter representing how much data 
 })
 
 ```
+### Available random data's
+
+1. Address
+1. App
+1. Appliance
+1. Bank
+1. Beer
+1. Card
+1. Code
+1. Color
+1. Commerce
+1. Company
+1. Computer
+1. Crypto Coin
+1. Device
+1. Food
+1. Internet Stuff
+1. Lorem Filcker
+1. Lorem Ipsum
+1. Nation
+1. Phone Number
+1. Stripe
+1. User
+1. Vehicle
