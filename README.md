@@ -4,7 +4,7 @@
 
  ### A package to generate random data
 
-    npm install --save ranodm-data
+    npm install --save ranodm-fakedata
 ### Usage
 ------------
 
