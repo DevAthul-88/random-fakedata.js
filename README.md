@@ -1,4 +1,4 @@
-##  random-data.js
+##  random-fakedata.js
 
 > A package to generate random data
 
