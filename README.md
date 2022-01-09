@@ -60,6 +60,7 @@ color(4 , (data) => {  // the first number parameter representing how much data 
 1. Stripe
 1. User
 1. Vehicle
+1. Name
 
 ### License
 ------------
