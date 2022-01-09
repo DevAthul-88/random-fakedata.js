@@ -11,7 +11,7 @@
 const user  = require('random-data/src/user')
 
 user(1 , (data) => {
-	console.log(data) // get a random user data
+  console.log(data) // get a random user data
 })
 ```
 ### Get a random address
@@ -19,7 +19,7 @@ user(1 , (data) => {
 const address = require('random-data/src/address')
 
 address(1 , (data) => {
-	console.log(data) // get a random address
+  console.log(data) // get a random address
 })
 ```
 ### Data return count
@@ -28,7 +28,7 @@ address(1 , (data) => {
 const color = require('random-data/src/color')
 
 color(4 , (data) => {  // the first number parameter representing how much data should return
-	console.log(data)
+   console.log(data)
 })
 
 ```
