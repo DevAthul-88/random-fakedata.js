@@ -1,10 +1,14 @@
 {
   "name": "random-fakedata",
-  "version": "1.0.0",
-  "description": "A package to generate random data",
+  "version": "1.0.3",
+  "description": "A package to generate random fake data",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevAthul-88/random-data.js.git"
   },
   "keywords": [
     "package",
@@ -14,11 +18,18 @@
     "repository",
     "javascript",
     "node js",
-    "npm"
+    "npm",
+    "fake data",
+    "fake",
+    "data",
+    "generator"
   ],
   "author": "athul vinod",
   "license": "MIT",
   "dependencies": {
     "axios": "^0.24.0"
-  }
+  },
+
+  "homepage": "https://github.com/DevAthul-88/random-data.js.git"
+
 }
