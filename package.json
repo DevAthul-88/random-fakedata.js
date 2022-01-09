@@ -1,13 +1,23 @@
 {
-  "name": "random-data",
+  "name": "random-fakedata",
   "version": "1.0.0",
   "description": "A package to generate random data",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "package",
+    "random-data",
+    "data-generate",
+    "random",
+    "repository",
+    "javascript",
+    "node js",
+    "npm"
+  ],
   "author": "athul vinod",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "axios": "^0.24.0"
   }
