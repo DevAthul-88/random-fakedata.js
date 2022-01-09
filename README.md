@@ -53,7 +53,7 @@ color(4 , (data) => {  // the first number parameter representing how much data 
 1. Device
 1. Food
 1. Internet Stuff
-1. Lorem Filcker
+1. Lorem Flicker
 1. Lorem Ipsum
 1. Nation
 1. Phone Number
