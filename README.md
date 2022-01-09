@@ -26,7 +26,7 @@ address(1 , (data) => {
 ```
 ### Data return count
 ------------
-###### Default data count is 1. If you want more than 1 return data use like this
+###### The default data count is 1. If you want more than 1 return data use like this
 ```javascript
 const color = require('random-data/src/color')
 
