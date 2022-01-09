@@ -6,6 +6,7 @@
 
     npm install --save ranodm-data
 ### Usage
+------------
 
   ```javascript
 const user  = require('random-data/src/user')
@@ -15,6 +16,7 @@ user(1 , (data) => {
 })
 ```
 ### Get a random address
+------------
 ```javascript
 const address = require('random-data/src/address')
 
@@ -23,6 +25,7 @@ address(1 , (data) => {
 })
 ```
 ### Data return count
+------------
 ###### Default data count is 1. If you want more than 1 return data use like this
 ```javascript
 const color = require('random-data/src/color')
@@ -33,6 +36,7 @@ color(4 , (data) => {  // the first number parameter representing how much data 
 
 ```
 ### Available random data's
+------------
 
 1. Address
 1. App
