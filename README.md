@@ -60,3 +60,9 @@ color(4 , (data) => {  // the first number parameter representing how much data 
 1. Stripe
 1. User
 1. Vehicle
+
+
+### License
+------------
+
+The MIT License (MIT) Copyright (c) 2022 athul vinod devathulvinod@gmail.com
