@@ -5,6 +5,9 @@ function Device(count = 1, data) {
     .get("https://random-data-api.com/api/device/random_device?size=" + count)
     .then((res) => {
       data(res.data);
+    })
+    .catch((err) => {
+      console.log(err);
     });
 }
 

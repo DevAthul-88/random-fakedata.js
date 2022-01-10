@@ -5,6 +5,9 @@ function Card(count = 1, data) {
     .get("https://random-data-api.com/api/stripe/random_stripe?size=" + count)
     .then((res) => {
       data(res.data);
+    })
+    .catch((err) => {
+      console.log(err);
     });
 }
 

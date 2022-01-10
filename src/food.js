@@ -5,6 +5,9 @@ function Food(count = 1, data) {
     .get("https://random-data-api.com/api/food/random_food?size=" + count)
     .then((res) => {
       data(res.data);
+    })
+    .catch((err) => {
+      console.log(err);
     });
 }
 

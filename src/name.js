@@ -5,6 +5,9 @@ function Name(count = 1, data) {
     .get("https://random-data-api.com/api/name/random_name?size=" + count)
     .then((res) => {
       data(res.data);
+    })
+    .catch((err) => {
+      console.log(err);
     });
 }
 

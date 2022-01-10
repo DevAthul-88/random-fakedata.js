@@ -5,6 +5,9 @@ function Nation(count = 1, data) {
     .get("https://random-data-api.com/api/nation/random_nation?size=" + count)
     .then((res) => {
       data(res.data);
+    })
+    .catch((err) => {
+      console.log(err);
     });
 }
 

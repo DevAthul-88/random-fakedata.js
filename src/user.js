@@ -5,6 +5,9 @@ function User(count = 1, data) {
     .get("https://random-data-api.com/api/users/random_user?size=" + count)
     .then((res) => {
       data(res.data);
+    })
+    .catch((err) => {
+      console.log(err);
     });
 }
 

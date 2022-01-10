@@ -5,6 +5,9 @@ function Beer(count = 1, data) {
     .get("https://random-data-api.com/api/beer/random_beer?size=" + count)
     .then((res) => {
       data(res.data);
+    })
+    .catch((err) => {
+      console.log(err);
     });
 }
 
