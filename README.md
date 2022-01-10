@@ -68,5 +68,5 @@ color(4 , (data) => {  // the first number parameter representing how much data 
 
 The MIT License (MIT) Copyright (c) 2022 Athul Vinod devathulvinod@gmail.com
 
-The MIT License (MIT) Copyright (c) 2022 Athul Vinod devathulvinod@gmail.com
+
 
