@@ -1,6 +1,6 @@
 {
   "name": "random-fakedata",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "A package to generate random fake data",
   "main": "index.js",
   "scripts": {
@@ -29,10 +29,5 @@
   "dependencies": {
     "axios": "^0.24.0"
   },
-
   "homepage": "https://github.com/DevAthul-88/random-data.js.git"
-
-
 }
-
-

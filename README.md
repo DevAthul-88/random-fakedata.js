@@ -2,14 +2,14 @@
 
 > A package to generate random data
 
- ### A package to generate random data
+ ### A package to generate random fake data
 
     npm install --save random-fakedata
 ### Usage
 ------------
 
   ```javascript
-const user  = require('random-data/src/user')
+const user  = require('random-fakedata/src/user')
 
 user(1 , (data) => {
   console.log(data) // get a random user data
@@ -18,7 +18,7 @@ user(1 , (data) => {
 ### Get a random address
 ------------
 ```javascript
-const address = require('random-data/src/address')
+const address = require('random-fakedata/src/address')
 
 address(1 , (data) => {
   console.log(data) // get a random address
@@ -28,7 +28,7 @@ address(1 , (data) => {
 ------------
 ###### The default data count is 1. If you want more than 1 return data use like this
 ```javascript
-const color = require('random-data/src/color')
+const color = require('random-fakedata/src/color')
 
 color(4 , (data) => {  // the first number parameter representing how much data should return
    console.log(data)
